@@ -1,4 +1,6 @@
-#!/usr/bin/env sh
+#!/bin/sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm test
+echo "it's working" && exit 1
+
+npx --no-install lint-staged
