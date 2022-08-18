@@ -1,9 +1,5 @@
-import styles from '../../styles/Home.module.css'
+import Main from 'components/Main'
 
-type Props = {
-  title?: string
-}
-
-export default function Home({ title = 'React Avancado!' }: Props) {
-  return <div className={styles.container}>{title}</div>
+export default function Home() {
+  return <Main />
 }
